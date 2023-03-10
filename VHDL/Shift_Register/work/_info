@@ -8,14 +8,14 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 d/home/tsvillaluenga/Documentos/VHDL/VDHL/Shift_Register
+d/home/tsvillaluenga/Documentos/VHDL/VDHL/Shift_Register
 Eshift_reg
-Z1 w1678275350
-Z2 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
-Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z4 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-!i122 9
-R0
+Z0 w1678275350
+Z1 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 21
+Z4 d/home/tsvillaluenga/Documentos/VHDL/VHDL/Shift_Register
 Z5 8Shift_Reg.vhd
 Z6 FShift_Reg.vhd
 l0
@@ -24,19 +24,19 @@ VRiA@UD5ONB7YCD:o?U@5J1
 !s100 Q@77o1kodcTzPSJ:4V`5N0
 Z7 OV;C;2020.1;71
 32
-Z8 !s110 1678275943
+Z8 !s110 1678282224
 !i10b 1
-Z9 !s108 1678275943.000000
+Z9 !s108 1678282224.000000
 Z10 !s90 -reportprogress|300|Shift_Reg.vhd|
 Z11 !s107 Shift_Reg.vhd|
 !i113 1
 Z12 tExplicit 1 CvgOpt 0
 Abehavior
+R1
 R2
 R3
-R4
 DEx4 work 9 shift_reg 0 22 RiA@UD5ONB7YCD:o?U@5J1
-!i122 9
+!i122 21
 l21
 L17 32
 V]DWV`0cZ0eM^iAfE0AeDK1
@@ -51,24 +51,43 @@ R11
 !i113 1
 R12
 Etest_shift_reg
-w1678275933
+Z13 w1678281475
+R1
 R2
 R3
+!i122 22
 R4
-!i122 10
-R0
-8test_Shift_Reg.vhd
-Ftest_Shift_Reg.vhd
+Z14 8test_Shift_Reg.vhd
+Z15 Ftest_Shift_Reg.vhd
 l0
 L5 1
-V[PXz_g:=VfX>:<VM4_Yj71
-!s100 ?jARmU4j0gQ66TmKa:>3^3
+Vi;X6<VCZmz:cjX864G;KH2
+!s100 6Q`YKYz<9l[`d7JF1@_`63
 R7
 32
 R8
 !i10b 1
 R9
-!s90 -reportprogress|300|test_Shift_Reg.vhd|
-!s107 test_Shift_Reg.vhd|
+Z16 !s90 -reportprogress|300|test_Shift_Reg.vhd|
+Z17 !s107 test_Shift_Reg.vhd|
+!i113 1
+R12
+Atest
+R1
+R2
+R3
+Z18 DEx4 work 14 test_shift_reg 0 22 i;X6<VCZmz:cjX864G;KH2
+!i122 22
+l27
+Z19 L8 45
+Z20 VdTC]zKnC?cS^PD5:YTf7M2
+Z21 !s100 >Oi2fDJJ2ZWQjc5k8hbBg3
+R7
+32
+R8
+!i10b 1
+R9
+R16
+R17
 !i113 1
 R12

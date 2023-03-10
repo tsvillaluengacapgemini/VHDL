@@ -1,6 +1,6 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.NUMERIC_STD.ALL;
+use IEEE.numeric_std.all;
 
 entity test_Shift_Reg is
 end;
@@ -19,15 +19,22 @@ component Shift_Reg
 			
 end component;
 
-signal data_in 		: std_logic : = '0' ;
-signal clk				: std_logic : = '1';
-signal reset 			: std_logic : = '0';
+signal data_in 		: std_logic := '0' ;
+signal clk			: std_logic := '1';
+signal reset 		: std_logic := '0';
 signal A, B, C, D	: std_logic;
 
 begin
 
 	dev_to_test : Shift_Reg
-		port map ( A, B, C, D, data_in, reset, clk);
+	port map ( 
+	           A => A,
+	           B => B, 
+	           C => C, 
+	           D => D, 
+	           data_in => data_in, 
+	           reset => reset, 
+	           clk => clk);
 		
 	clk_stimulus: process
 	begin

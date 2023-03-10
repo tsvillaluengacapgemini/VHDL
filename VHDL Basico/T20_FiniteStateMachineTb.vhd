@@ -42,15 +42,16 @@ begin
     Clk <= not Clk after ClockPeriod / 2;
  
     -- Testbench sequence
-    process is
+    process
     begin
-        wait until rising_edge(Clk);
-        wait until rising_edge(Clk);
+        if (nRst = '0') then
+			wait until rising_edge(Clk);
+			wait until rising_edge(Clk);
  
-        -- Take the DUT out of reset
-        nRst <= '1';
- 
-        wait;
+			-- Take the DUT out of reset
+			nRst <= '1';
+		end if;
+		
     end process;
  
 end architecture;

@@ -29,7 +29,7 @@ architecture rtl of T20_TrafficLights is
  
 begin
  
-    process(Clk) is
+    process(Clk)
     begin
         if rising_edge(Clk) then
             if nRst = '0' then
@@ -42,8 +42,8 @@ begin
                 WestRed     <= '1';
                 WestYellow  <= '0';
                 WestGreen   <= '0';
- 
-            else
+			
+			else
                 -- Default values
                 NorthRed    <= '0';
                 NorthYellow <= '0';
@@ -138,7 +138,7 @@ begin
                             State   <= NorthNext;
                         end if;
  
-                end case;
+				end case;
  
             end if;
         end if;
